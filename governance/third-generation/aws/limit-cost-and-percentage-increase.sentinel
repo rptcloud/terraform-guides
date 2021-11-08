@@ -12,7 +12,7 @@ import "decimal"
 
 # Monthly Limit and Max Percent Increase
 limit = decimal.new(1000)
-max_percent = decimal.new(25.0)
+max_percent = decimal.new(50.0)
 
 # Call the validation function
 # Warnings will be printed for violations
