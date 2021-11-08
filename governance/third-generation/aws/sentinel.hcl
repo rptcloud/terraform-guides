@@ -25,5 +25,5 @@ policy "enforce-mandatory-tags" {
 
 policy "limit-cost-and-percentage-increase" {
     source = "./limit-cost-and-percentage-increase.sentinel"
-    enforcement_level = "hard-mandatory"
+    enforcement_level = "advisory"
 }
